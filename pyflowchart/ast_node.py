@@ -654,7 +654,7 @@ class MatchCaseCondition(ConditionNode):
                 ...
     """
 
-    def __init__(self, ast_match_case: _ast_match_case_t, subject: _ast.AST, **kwargs):
+    def __init__(self, ast_match_case: _ast_match_case_t, subject: _ast.AST, **kwargs): # type: ignore
         """
         Args:
             ast_match_case: instance of _ast.match_case
